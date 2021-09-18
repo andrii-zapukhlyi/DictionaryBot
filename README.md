@@ -1,5 +1,5 @@
 # DictionaryBot
-!Python &amp; MongoDB dictionary bot.
+! Python &amp; MongoDB dictionary bot.
 
 + pip install pyTelegramBotAPI, pymongo
 
