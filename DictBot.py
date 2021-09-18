@@ -2,7 +2,9 @@ import telebot, random, pymongo
 from pymongo import MongoClient
 #CHANGE ON YOUR MONGODB CLUSTER
 cluster = pymongo.MongoClient("link mongodb cluster")
+#DATABASE NAME MUST BE 'telegramBot' in your cluster settings!
 db = cluster["telegramBot"]
+#COLLECTION NAME MUST BE 'telegramBot' in your cluster settings!
 collection = db["dictionaryBot"]
 
 #CHANGE ON YOUR TELEGRAM BOT ID
