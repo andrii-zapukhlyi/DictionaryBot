@@ -1,5 +1,5 @@
 # DictionaryBot
-- ![#f03c15](Python &amp; MongoDB dictionary bot=+) `#f03c15`
+- Python &amp; MongoDB dictionary bot
 
 
 + pip install pyTelegramBotAPI, pymongo
