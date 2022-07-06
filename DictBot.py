@@ -4,7 +4,7 @@ from pymongo import MongoClient
 cluster = pymongo.MongoClient("link mongodb cluster")
 #DATABASE NAME MUST BE 'telegramBot' in your cluster settings!
 db = cluster["telegramBot"]
-#COLLECTION NAME MUST BE 'telegramBot' in your cluster settings!
+#COLLECTION NAME MUST BE 'dictionaryBot' in your cluster settings!
 collection = db["dictionaryBot"]
 
 #CHANGE ON YOUR TELEGRAM BOT ID
